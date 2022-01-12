@@ -107,6 +107,10 @@ margin-top:30px;
     width: 224px;
     height: 104px;
 }
+.another-coure-title{
+    font-family: roboto;
+    font-size: 20px;
+}
 .course-info{
     display:flex;
     align-items: center;
