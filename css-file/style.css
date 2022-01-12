@@ -128,3 +128,41 @@ margin-top:30px;
     color:#ED6B4F;
     padding: 4px;
 }
+/*---------------
+ Media Queries
+ ---------------*/
+
+ /* Mobile Devicies */
+ @media Only screen and (max-width:668px) {
+     .containar{width: 100%;}
+     .section-title{
+        text-align: center;
+    }
+    .another-title{text-align: center;}
+     .players, .blogs,.courses {
+    grid-template-columns: repeat(1,1fr);
+     }
+     .player, .blog, .course {
+         flex-direction: column;
+         align-items: center;
+         margin: 0 auto;
+        }
+ }
+
+/* For tablet only */
+@media Only screen and (min-width:668px)and (max-width:992px) {
+    .containar{width: 100%;}
+    .another-title{text-align: center;}
+    .players, .blogs,.courses{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .section-title{
+        text-align: center;
+    }
+    .player, .blog, .course{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+}
